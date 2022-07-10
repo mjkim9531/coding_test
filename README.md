@@ -1,2 +1,1 @@
-# coding_test
-ㅇㅇ ㄹㄹㄹㄹ   
+# coding_test 
