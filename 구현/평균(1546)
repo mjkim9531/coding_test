@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+vector<int> v;
+int N;
+int num;
+int MAX = 0;
+double tot;
+double AVG;
+double new_avg;
+
+int main() {
+	cin >> N;
+	for (int i = 0; i < N; i++) {
+		cin >> num;
+		v.push_back(num);
+		tot = tot + num;
+		if (num > MAX) MAX = num;
+	}
+	AVG = tot / N;
+	new_avg = AVG / MAX * 100;
+	cout << new_avg << "\n";
+}
